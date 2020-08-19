@@ -1,0 +1,27 @@
+.header__cell {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 1s linear;
+}
+.header__cell:first-child
+{
+    justify-content: left;
+}
+.header__cell:nth-child(2):hover
+{
+    background-color: #c0c0c0;
+}
+.header__cell:nth-child(3):hover
+{
+    background-color: #c0c0c0;
+}
+.header__cell:nth-child(4):hover
+{
+    background-color: #c0c0c0;
+}
+.header__cell:nth-child(5):hover
+{
+    background-color: #c0c0c0;
+}

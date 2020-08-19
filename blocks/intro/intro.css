@@ -1,0 +1,8 @@
+.intro {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 300px 0 350px 0;
+    padding: 0;
+}

@@ -1,0 +1,7 @@
+.cards__iframes {
+    display: grid;
+    grid-template-columns: repeat(3, 500px);
+    grid-template-rows: 300px;
+    column-gap: 20px;
+
+}

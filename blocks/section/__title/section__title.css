@@ -1,0 +1,12 @@
+.section__title {
+    width: 100%;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 58px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+
+}

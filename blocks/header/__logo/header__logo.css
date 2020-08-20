@@ -2,3 +2,31 @@
     width: 150px;
     height: 80px;
 }
+@media screen and (max-width: 1032px)
+{
+    .header__logo {
+        width: 105px;
+        height: 56px;
+    }
+}
+@media screen and (max-width: 690px)
+{
+    .header__logo {
+        width: 73px;
+        height: 39px;
+    }
+}
+@media screen and (max-width: 420px)
+{
+    .header__logo {
+        width: 51px;
+        height: 27px;
+    }
+}
+@media screen and (max-width: 370px)
+{
+    .header__logo {
+        width: 35px;
+        height: 19px;
+    }
+}

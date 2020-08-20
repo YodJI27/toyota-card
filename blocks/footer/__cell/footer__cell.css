@@ -1,5 +1,14 @@
 .footer__cell {
     list-style-type: none;
-    margin: 0 20px 0;
+    margin: 0 20px 0 0;
     padding: 0;
+}
+.footer__cell:last-child {
+    margin: 0;
+}
+@media screen and (max-width: 520px)
+{
+    .footer__cell {
+        margin: 0 0 20px 0;
+    }
 }

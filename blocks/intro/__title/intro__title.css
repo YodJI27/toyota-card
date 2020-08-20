@@ -7,3 +7,18 @@
     text-align: center;
     margin: 0 0 32px 0;
 }
+@media screen and (max-width: 500px)
+{
+    .intro__title {
+        font-size: 74px;
+        line-height: 80px;
+    }
+}
+@media screen and (max-width: 375px)
+{
+    .intro__title {
+        font-size: 60px;
+        line-height: 70px;
+    }
+}
+

@@ -10,3 +10,24 @@
 .intro__subtitle:last-child {
     margin: 0;
 }
+@media screen and (max-width: 500px)
+{
+    .intro__subtitle {
+        font-size: 20px;
+        line-height: 26px;
+    }
+}
+@media screen and (max-width: 420px)
+{
+    .intro__subtitle {
+        font-size: 17px;
+        line-height: 22px;
+    }
+}
+@media screen and (max-width: 375px)
+{
+    .intro__subtitle {
+        font-size: 14px;
+        line-height: 18px;
+    }
+}

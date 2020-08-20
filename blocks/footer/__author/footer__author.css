@@ -8,3 +8,19 @@
     text-align: right;
     margin: 40px 20px 40px 0;
 }
+@media screen and (max-width: 590px)
+{
+    .footer__author {
+        text-align: right;
+        margin: 0 20px 40px 0;
+        font-size: 14px;
+        line-height: 16px;
+    }
+}
+@media screen and (max-width: 520px)
+{
+    .footer__author {
+        text-align: left;
+        margin: 0 0 30px 20px;
+    }
+}

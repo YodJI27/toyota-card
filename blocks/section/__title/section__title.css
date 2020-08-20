@@ -10,3 +10,33 @@
     text-align: center;
 
 }
+@media screen and (max-width: 700px)
+{
+    .section__title {
+        font-size: 35px;
+        line-height: 50px;
+        font-weight: 700;
+    }
+}
+@media screen and (max-width: 500px)
+{
+    .section__title {
+        font-size: 30px;
+        line-height: 40px;
+        font-weight: 600;
+    }
+}
+@media screen and (max-width: 420px)
+{
+    .section__title {
+        font-size: 24px;
+        line-height: 32px;
+    }
+}
+@media screen and (max-width: 350px)
+{
+    .section__title {
+        font-size: 21px;
+        line-height: 29px;
+    }
+}

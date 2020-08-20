@@ -5,3 +5,10 @@
     flex-direction: row;
     justify-content: space-between;
 }
+@media screen and (max-width: 590px)
+{
+    .footer {
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+}

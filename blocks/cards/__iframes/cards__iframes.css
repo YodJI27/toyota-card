@@ -5,3 +5,43 @@
     column-gap: 20px;
 
 }
+@media screen and (max-width: 1560px)
+{
+    .cards__iframes {
+        grid-template-columns: repeat(2, 500px);
+        grid-template-rows: repeat(2, 300px);
+        row-gap: 20px;
+    }
+}
+@media screen and (max-width: 1040px)
+{
+    .cards__iframes {
+        grid-template-columns: 650px;
+        grid-template-rows: repeat(3, 300px);
+        row-gap: 20px;
+    }
+}
+@media screen and (max-width: 680px)
+{
+    .cards__iframes {
+        grid-template-columns: 500px;
+        grid-template-rows: repeat(3, 300px);
+        row-gap: 20px;
+    }
+}
+@media screen and (max-width: 520px)
+{
+    .cards__iframes {
+        grid-template-columns: 380px;
+        grid-template-rows: repeat(3, 220px);
+        row-gap: 20px;
+    }
+}
+@media screen and (max-width: 400px)
+{
+    .cards__iframes {
+        grid-template-columns: 300px;
+        grid-template-rows: repeat(3, 165px);
+        row-gap: 20px;
+    }
+}

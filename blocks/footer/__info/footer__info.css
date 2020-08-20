@@ -1,6 +1,13 @@
 .footer__info {
     display: flex;
     flex-direction: row;
+    justify-content: flex-start;
     margin: 40px 0 40px 20px;
     padding: 0;
+}
+@media screen and (max-width: 520px)
+{
+    .footer__info {
+        flex-direction: column;
+    }
 }

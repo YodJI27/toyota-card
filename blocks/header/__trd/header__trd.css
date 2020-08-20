@@ -1,1 +1,28 @@
-
+@media screen and (max-width: 1032px)
+{
+    .header__trd {
+        width: 200px;
+        height: 30px;
+    }
+}
+@media screen and (max-width: 690px)
+{
+    .header__trd {
+        width: 150px;
+        height: 25px;
+    }
+}
+@media screen and (max-width: 420px)
+{
+    .header__trd {
+        width: 100px;
+        height: 18px;
+    }
+}
+@media screen and (max-width: 370px)
+{
+    .header__trd {
+        width: 50px;
+        height: 12px;
+    }
+}

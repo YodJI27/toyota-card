@@ -1,3 +1,36 @@
 .cards__image {
     margin: 70px 0 0 0;;
 }
+@media screen and (max-width: 700px)
+{
+    .cards__image {
+        width: 476px;
+        height: 235px;
+    }
+    .cards__image:nth-child(3)
+    {
+        height: 196px;
+    }
+}
+@media screen and (max-width: 500px)
+{
+    .cards__image {
+        width: 333px;
+        height: 164px;
+    }
+    .cards__image:nth-child(3)
+    {
+        height: 138px;
+    }
+}
+@media screen and (max-width: 360px)
+{
+    .cards__image {
+        width: 266px;
+        height: 131px;
+    }
+    .cards__image:nth-child(3)
+    {
+        height: 110px;
+    }
+}

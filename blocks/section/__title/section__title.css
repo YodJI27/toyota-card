@@ -1,6 +1,12 @@
 .section__title {
     width: 100%;
-    font-family: Inter;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%; 
+    -ms-text-size-adjust: 100%;  
+    -moz-text-size-adjust: 100%;  
+    text-rendering: optimizeLegibility;  
+    font-family: Inter, 'Arial', 'Helvetica';
     font-style: normal;
     font-weight: 900;
     font-size: 40px;
@@ -15,7 +21,6 @@
     .section__title {
         font-size: 35px;
         line-height: 50px;
-        font-weight: 700;
     }
 }
 @media screen and (max-width: 500px)
@@ -23,7 +28,6 @@
     .section__title {
         font-size: 30px;
         line-height: 40px;
-        font-weight: 600;
     }
 }
 @media screen and (max-width: 420px)

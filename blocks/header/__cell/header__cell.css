@@ -4,7 +4,6 @@
     align-items: center;
     justify-content: center;
     transition: background-color 1s linear;
-    outline: 1px solid red;
 }
 .header__cell:first-child
 {

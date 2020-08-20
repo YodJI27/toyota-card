@@ -6,3 +6,23 @@
     margin: 300px 0 350px 0;
     padding: 0;
 }
+@media screen and (max-width: 932px)
+{
+    .intro {
+        margin-top: 200px;
+    }
+}
+@media screen and (max-width: 600px)
+{
+    .intro {
+        margin-top: 150px;
+        margin-bottom: 250px;
+    }
+}
+@media screen and (max-width: 500px)
+{
+    .intro {
+        margin-top: 75px;
+        margin-bottom: 200px;
+    }
+}
